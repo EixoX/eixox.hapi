@@ -1,0 +1,20 @@
+{
+  "name": "eixox.hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^13.3.0",
+    "hoek": "^4.0.0",
+    "inert": "^3.2.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
