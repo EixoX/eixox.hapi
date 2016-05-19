@@ -1,0 +1,82 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-6">
+            <form ng-submit="registerUser">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Primeiro Nome:</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Nomes do Meio:</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Sobrenome</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">E-mail:</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Sexo:</label>
+                            <select class="form-control">
+                                <option></option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Senha:</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Confirme a senha:</label>
+                            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                            <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa fa-save"></i>
+                            <span>Registrar</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

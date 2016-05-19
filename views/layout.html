@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!--
+    <link rel="Shortcut Icon" href="/Content/img/favicon.ico" type="image/x-icon" />
+    -->
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{url}}" />
+    <meta property="og:image" content="{{image}}">
+    <meta property="og:site_name" content="{{site_name}}" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="fb:app_id" content="{{fb_app_id}}" />
+    <meta property="fb:pages" content="{{fb_page_id}}" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /> 
+    {% block head %} {% endblock %}
+</head>
+
+<body>
+
+    {% include "navbar.html" %}
+    
+    {% block content %}
+    {% endblock %}
+
+    {% include "footer.html" %}
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    {% block scripts %} {% endblock %}
+</body>
+
+</html>

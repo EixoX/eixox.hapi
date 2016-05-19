@@ -4,10 +4,14 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "handlebars": "^4.0.5",
+    "bcryptjs": "^2.3.0",
     "hapi": "^13.3.0",
+    "hapi-auth-basic": "^4.1.0",
     "hoek": "^4.0.0",
     "inert": "^3.2.0",
+    "mongodb": "^2.1.18",
+    "nunjucks-hapi": "^2.1.0",
+    "pg": "^4.5.5",
     "vision": "^4.1.0"
   },
   "devDependencies": {},
